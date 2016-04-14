@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LoveStruck</title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+  </head>
+
+    <script>
+function resizeCanvas() {
+  var canvs = document.getElementById("canvas");
+  debugger
+  if (window.innerWidth > 400) {
+    canvs.width = 400
+  }
+  else {
+    canvs.width =  (window.innerWidth);
+  }
+  canvs.height = 600*(canvas.width/400);
+}
+</script>
+<body  onload="resizeCanvas();">
+  <h3>Love Struck</h3>
+
+  <div class="welcome revealed" >
+          <div class='panel-heading'>
+            <h1> Welcome to LoveStruck. </h1>
+          </div>
+          <div class='panel-content'>
+            <h4> Use the A and D keys to control the left student and the left and right keys to control the right student
+              <br/>
+            Make your way through the classroom halls, dodging as many hearts as you can. </h4>
+            <h2> <div class="button"> Start</div> </h2>
+          </div>
+    </div>
+
+
+    <div class="over hidden" >
+            <div class='panel-heading'>
+              <h1> You got love struck!! </h1>
+            </div>
+            <div class='panel-content'>
+              <h4> Don't worry, press begin to play again
+                <br/>
+              Watch out for those hearts! The longer you last, the closer they become! </h4>
+              <h2> <div class="button1">Start</div> </h2>
+            </div>
+      </div>
+  <canvas id="canvas" class="canvas hidden"><h2></h2></canvas>
+  <script>
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+  </script>
+
+  <script src="vendor/jquery.js"></script>
+  <script type="application/javascript" src="vendor/keymaster.js"></script>
+  <script type="application/javascript" src="lib/bundle.js"></script>
+
+  <script type="application/javascript">
+  (function () {
+    var canvasEl =  document.getElementById("canvas");
+    var ctx = canvasEl.getContext("2d");
+    document.body.appendChild(canvasEl);
+  })();
+</script>
+  </body>
+</html>
