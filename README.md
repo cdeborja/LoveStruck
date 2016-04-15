@@ -18,5 +18,7 @@ Play Love Struck [here][LoveStruck]
 * [Keymaster](https://github.com/madrobby/keymaster)
 
 ##Features
-* It's a game... that you can move in... add more features here later
-* High score is stored in a cookie so that it persists across play sessions
+* Collision Detection enabled between all moving objects in DOM
+* High score is stored in a local storage cookie so that it persists across play sessions
+* As time progresses, uses timeoutinterval to increase difficulty in gameplay
+* 
