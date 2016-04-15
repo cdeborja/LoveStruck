@@ -60,9 +60,6 @@ h3 {
   display: none;
 }
 
-.links {
-  margin-top: 30px;
-}
 
 .welcome, .over {
     text-align: center;
@@ -135,4 +132,23 @@ a:hover {
 
 .welcome {
   margin-top: 0px;
+}
+
+
+.links {
+  margin: 30px auto 0 auto;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+}
+
+.links > a {
+  margin-right: 20px;
+  display: inline;
+  float: left;
+  width: 40px;
+}
+
+.links > a > img {
+  display: grid;
+  width: 40px;
 }
