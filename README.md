@@ -18,4 +18,5 @@ Play Love Struck [here][LoveStruck]
 * [Keymaster](https://github.com/madrobby/keymaster)
 
 ##Features
-* It's a game... that you can move in.
+* It's a game... that you can move in... add more features here later
+* High score is stored in a cookie so that it persists across play sessions
