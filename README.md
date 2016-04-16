@@ -6,7 +6,7 @@ Play Love Struck [here][LoveStruck]
 
 [![Image of LoveStruck](images/Screenshot.png)][LoveStruck]
 
-[LoveStruck]: http://cdeborja.github.io/LoveStruck/game.html
+[LoveStruck]: http://cdeborja.github.io/LoveStruck
 
 ## Languages and Technologies
 * Javascript
@@ -21,4 +21,4 @@ Play Love Struck [here][LoveStruck]
 * Collision Detection enabled between all moving objects in DOM
 * High score is stored in a local storage cookie so that it persists across play sessions
 * As time progresses, uses timeoutinterval to increase difficulty in gameplay
-* 
+*
