@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
 
 html, body, header, nav, h1, a, ul, li, h3,
 strong, main, section, img, div, h2, p,
@@ -16,7 +19,6 @@ button, article, footer, small {
   vertical-align: inherit;
   background: transparent;
 }
-
 /* --- ELEMENTS --- */
 
 canvas {
@@ -27,12 +29,14 @@ canvas {
 
 
 body {
-  font-family: sans-serif;
-   background-size: 450px auto;
-   background-position: left -10px bottom -50px;
-   background-attachment: fixed;
-   background-repeat: no-repeat;
-   background-color: #FFFFFF;
+  background-image: url('./images/LoveStruck_background.jpg');
+  font-family: "Bangers";
+  font-size: 14px;
+  background-size: cover;
+  background-position: left -10px bottom -50px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
 }
 
 ul {
@@ -45,16 +49,21 @@ img {
   height: auto;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 h3 {
   display: block;
-  color: pink;
+  color: white;
   font-size: 90px;
   font-weight: bold;
-  font-family: fantasy;
-  text-shadow: 7px 7px 0 #5ac7ff;
+  font-family: 'Lobster';
+  text-shadow: 7px 7px 0 black;
   margin: 0 auto;
   text-align: center;
 }
+
 
 .hidden {
   display: none;
@@ -74,14 +83,14 @@ h3 {
     box-shadow:0px 2px 6px rgba(0,0,0,1);
     border-radius:5px;
     background:#fff;
-    border: 2px dashed  pink;
-    /*box-shadow: 0 0 0 8px #ff0030;*/
+    border: 5px dashed  #dd1600;
+    box-shadow: 0 0 0 8px #ffffff;
 ;
 }
 
 .button {
   background: transparent;
-  border: 2px solid pink;
+  border: 2px solid #dd1600;
   color: black;
   display: inline;
   padding: 10px;
@@ -90,14 +99,14 @@ h3 {
 
   .button:hover {
     opacity: 1;
-    background: pink;
+    background: #dd1600;
     cursor: pointer;
 
   }
 
   .button1 {
     background: transparent;
-    border: 2px solid pink;
+    border: 2px solid #dd1600;
     color: black;
     display: inline;
     padding: 10px;
@@ -106,7 +115,7 @@ h3 {
 
     .button1:hover {
       opacity: 1;
-      background: pink;
+      background: #dd1600;
       cursor: pointer;
       border-radius: 5px;
     }
@@ -115,7 +124,7 @@ h3 {
 
   a {
     text-decoration: none;
-    border: 1px solid pink;
+    border: 1px solid #dd1600;
     padding: 10px;
     background: transparent;
     color: black;
@@ -127,7 +136,7 @@ h3 {
 
 a:hover {
   opacity: 1;
-  background: pink;
+  background: #dd1600;
   cursor: pointer;
 }
 
@@ -142,13 +151,15 @@ a:hover {
   -webkit-margin-after: 1em;
 }
 
+.links > p {
+  display: block;
+}
 .links > a {
   margin-right: 20px;
   display: inline;
   float: left;
   width: 40px;
 }
-
 .links > a > img {
   display: grid;
   width: 40px;

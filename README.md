@@ -20,5 +20,5 @@ Play Love Struck [here][LoveStruck]
 ##Features
 * Collision Detection enabled between all moving objects in DOM
 * High score is stored in a local storage cookie so that it persists across play sessions
-* As time progresses, uses timeoutinterval to increase difficulty in gameplay
-*
+* As time progresses, uses settimeout to increase difficulty in gameplay
+* Uses google fonts API
