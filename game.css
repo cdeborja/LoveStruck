@@ -159,6 +159,7 @@ a:hover {
   display: inline;
   float: left;
   width: 40px;
+  border-radius: 5px;
 }
 .links > a > img {
   display: grid;
