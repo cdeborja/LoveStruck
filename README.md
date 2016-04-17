@@ -1,6 +1,6 @@
 #Love Struck
 
-Love is in the air!... but your two main characters aren't having any of it! You control a boy and girl as they walk the halls of their school! Dodge as many hearts as possible and see how long how you can last until you become Love Struck!
+Love is in the air!... but your two main characters aren't having any of it! You control the last two students who don't want to fall in love as they walk the halls of their school! Dodge as many hearts as possible and see how long how you can last until you become Love Struck!
 
 Play Love Struck [here][LoveStruck]
 
