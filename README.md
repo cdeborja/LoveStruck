@@ -4,8 +4,11 @@ Love is in the air!... but your two main characters aren't having any of it! You
 
 Play Love Struck [here][LoveStruck]
 
-[![Image of LoveStruck](images/Screenshot.png)][LoveStruck]
+###Landing Screen
+[![Image of Love Struck Landing Screen](images/landing_screen.png)][LoveStruck]
 
+###Gameplay Screen
+[![Image of Love Struck Gameplay](images/gameplay_screen.png)][LoveStruck]
 [LoveStruck]: http://cdeborja.github.io/LoveStruck
 
 ## Languages and Technologies
