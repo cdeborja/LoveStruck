@@ -31,7 +31,8 @@ canvas {
 body {
   background-image: url('./images/LoveStruck_background.jpg');
   font-family: "Bangers";
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 100;
   background-size: cover;
   background-position: left -10px bottom -50px;
   background-attachment: fixed;
@@ -62,6 +63,15 @@ h3 {
   text-shadow: 7px 7px 0 black;
   margin: 0 auto;
   text-align: center;
+}
+
+/* --- CLEARFIX --- */
+
+.group:after {
+  clear: both;
+  content: "";
+  display: block;
+
 }
 
 
@@ -146,7 +156,6 @@ a:hover {
 
 
 .links {
-  margin: 30px auto 0 auto;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
 }
@@ -155,13 +164,11 @@ a:hover {
   display: block;
 }
 .links > a {
-  margin-right: 20px;
-  display: inline;
+  margin-right: 40px;
   float: left;
-  width: 40px;
+  display: block;
   border-radius: 5px;
 }
 .links > a > img {
-  display: grid;
-  width: 40px;
+  margin: 0 auto;
 }
