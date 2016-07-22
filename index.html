@@ -6,20 +6,7 @@
     <link rel="stylesheet" type="text/css" href="game.css">
     <link rel="icon" type="image/png" href="favicon.ico">
   </head>
-
-    <script>
-function resizeCanvas() {
-  var canvs = document.getElementById("canvas");
-  if (window.innerWidth > 400) {
-    canvs.width = 400
-  }
-  else {
-    canvs.width =  (window.innerWidth);
-  }
-  canvs.height = 600*(canvas.width/400);
-}
-</script>
-<body onload="resizeCanvas();">
+  <body>
   <h3>Love Struck</h3>
 
   <div class="welcome revealed" >
@@ -68,7 +55,7 @@ function resizeCanvas() {
     var canvasEl =  document.getElementById("canvas");
     var ctx = canvasEl.getContext("2d");
     document.body.appendChild(canvasEl);
-  })();
-</script>
+    })();
+  </script>
   </body>
 </html>
